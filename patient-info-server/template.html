@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Eco Patient Form Submission Template</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 40px;
+      }
+      .header,
+      .footer {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .content {
+        margin-top: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      th,
+      td {
+        padding: 8px;
+        text-align: left;
+      }
+      .logo {
+        width: 100px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/eco-logo.png" alt="Company Logo" class="logo" />
+      <h1>Form Submission Details</h1>
+    </div>
+    <div class="content">
+      <table>
+        <tr>
+          <th>Field</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Veteran Status</td>
+          <td>{{ veteran_status }}</td>
+        </tr>
+        <tr>
+          <td>Availability for Phone Call</td>
+          <td>{{ availability_for_phone_call }}</td>
+        </tr>
+        <tr>
+          <td>Cannabis Consumption per Day</td>
+          <td>{{ cannabis_consumption_per_day }}</td>
+        </tr>
+        <tr>
+          <td>Name on ID</td>
+          <td>{{ name_on_id }}</td>
+        </tr>
+        <tr>
+          <td>Date of Birth</td>
+          <td>{{ date_of_birth }}</td>
+        </tr>
+        <tr>
+          <td>Provincial Health Card Number</td>
+          <td>{{ provincial_health_card_number }}</td>
+        </tr>
+        <tr>
+          <td>Issuing Province</td>
+          <td>{{ issuing_province }}</td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>{{ gender }}</td>
+        </tr>
+        <tr>
+          <td>Email Address</td>
+          <td>{{ email_address }}</td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>{{ address }}</td>
+        </tr>
+        <tr>
+          <td>Phone Number</td>
+          <td>{{ phone_number }}</td>
+        </tr>
+        <tr>
+          <td>Medical Documents</td>
+          <td>{{ medical_documents }}</td>
+        </tr>
+        <tr>
+          <td>Referral Code</td>
+          <td>{{ referral_code }}</td>
+        </tr>
+        <tr>
+          <td>Medical Conditions and Duration</td>
+          <td>{{ medical_conditions }}</td>
+        </tr>
+        <tr>
+          <td>Current Therapy/Treatment</td>
+          <td>{{ current_therapy }}</td>
+        </tr>
+        <tr>
+          <td>Weight</td>
+          <td>{{ weight }}</td>
+        </tr>
+        <tr>
+          <td>Height</td>
+          <td>{{ height }}</td>
+        </tr>
+        <tr>
+          <td>Current Doctor</td>
+          <td>{{ current_doctor }}</td>
+        </tr>
+        <tr>
+          <td>Current Medications</td>
+          <td>{{ current_medications }}</td>
+        </tr>
+        <tr>
+          <td>Known Allergies</td>
+          <td>{{ known_allergies }}</td>
+        </tr>
+        <tr>
+          <td>Schizophrenia Diagnosis</td>
+          <td>{{ schizophrenia_diagnosis }}</td>
+        </tr>
+        <tr>
+          <td>Duration of Cannabis Use</td>
+          <td>{{ duration_of_cannabis_use }}</td>
+        </tr>
+        <tr>
+          <td>Preferred Methods of Cannabis Consumption</td>
+          <td>{{ preferred_methods_of_cannabis_consumption }}</td>
+        </tr>
+        <tr>
+          <td>
+            Legal Release, Acknowledgement & Indemnity Agreement Acceptance
+          </td>
+          <td>{{ legal_release_acknowledgement }}</td>
+        </tr>
+        <tr>
+          <td>ECO Service Agreement Signature and Date</td>
+          <td>{{ eco_service_agreement }}</td>
+        </tr>
+        <tr>
+          <td>Health Care Practitioner Information</td>
+          <td>{{ healthcare_practitioner_info }}</td>
+        </tr>
+        <tr>
+          <td>Shipping Preferences and Address if Different</td>
+          <td>{{ shipping_preferences }}</td>
+        </tr>
+        <tr>
+          <td>How You Heard About the Service</td>
+          <td>{{ how_you_heard_about_service }}</td>
+        </tr>
+        <tr>
+          <td>Patient Details (Including Preferred Name, Prefix, Suffix)</td>
+          <td>{{ patient_details }}</td>
+        </tr>
+        <tr>
+          <td>Sex on Health Card</td>
+          <td>{{ sex_on_health_card }}</td>
+        </tr>
+        <tr>
+          <td>Treatment Goals</td>
+          <td>{{ treatment_goals }}</td>
+        </tr>
+        <tr>
+          <td>Responsible Adult Information (if applicant is a minor)</td>
+          <td>{{ responsible_adult_info }}</td>
+        </tr>
+        <tr>
+          <td>Mailing Address (if different from Residence Address)</td>
+          <td>{{ mailing_address }}</td>
+        </tr>
+        <tr>
+          <td>Canadian Veteran Status</td>
+          <td>{{ canadian_veteran_status }}</td>
+        </tr>
+        <tr>
+          <td>Indigenous Identity</td>
+          <td>{{ indigenous_identity }}</td>
+        </tr>
+        <tr>
+          <td>Referral Source</td>
+          <td>{{ referral_source }}</td>
+        </tr>
+        <tr>
+          <td>Primary Care Provider Information</td>
+          <td>{{ primary_care_provider_info }}</td>
+        </tr>
+        <tr>
+          <td>Specialist(s) Information</td>
+          <td>{{ specialists_info }}</td>
+        </tr>
+        <tr>
+          <td>Reason for Visit or Consultation</td>
+          <td>{{ reason_for_visit }}</td>
+        </tr>
+      </table>
+    </div>
+    <div class="footer">
+      <p>Thank you for submitting your form.</p>
+    </div>
+  </body>
+</html>
